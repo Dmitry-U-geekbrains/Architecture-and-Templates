@@ -1,6 +1,5 @@
 from quopri import decodestring
-from requests import GetRequests, PostRequests
-
+from my_requests import GetRequests, PostRequests
 
 class PageNotFound404:
     def __call__(self, request):
