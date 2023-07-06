@@ -1,5 +1,5 @@
 from datetime import date
-from views import Index, About
+from lesson_4.views import Index, About
 
 
 def secret_front(request):

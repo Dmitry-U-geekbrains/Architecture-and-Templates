@@ -1,6 +1,5 @@
 from quopri import decodestring
-from lesson_4.dmitry_framework.my_requests import GetRequests, PostRequests
-
+from my_requests import GetRequests, PostRequests
 
 
 class PageNotFound404:
